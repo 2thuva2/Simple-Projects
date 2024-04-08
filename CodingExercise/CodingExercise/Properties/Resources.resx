@@ -1,0 +1,324 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Flights" xml:space="preserve">
+    <value>[{"Day":1,"Number":1,"Departure":"YUL","Arrival":"YYZ"},{"Day":1,"Number":2,"Departure":"YUL","Arrival":"YYC"},{"Day":1,"Number":3,"Departure":"YUL","Arrival":"YVR"},{"Day":2,"Number":4,"Departure":"YUL","Arrival":"YYZ"},{"Day":2,"Number":5,"Departure":"YUL","Arrival":"YYC"},{"Day":2,"Number":6,"Departure":"YUL","Arrival":"YVR"}]</value>
+  </data>
+  <data name="Orders" xml:space="preserve">
+    <value>{
+    "order-001": {
+        "destination" : "YYZ"
+    },
+    "order-002": {
+        "destination" : "YYZ"
+    },
+    "order-003": {
+        "destination" : "YYZ"
+    },
+    "order-004": {
+        "destination" : "YYZ"
+    },
+    "order-005": {
+        "destination" : "YYZ"
+    },"order-006": {
+        "destination" : "YYZ"
+    },"order-007": {
+        "destination" : "YYZ"
+    },"order-008": {
+        "destination" : "YYZ"
+    },"order-009": {
+        "destination" : "YYZ"
+    },"order-010": {
+        "destination" : "YYZ"
+    },"order-011": {
+        "destination" : "YYZ"
+    },"order-012": {
+        "destination" : "YYZ"
+    },"order-013": {
+        "destination" : "YYZ"
+    },"order-014": {
+        "destination" : "YYZ"
+    },"order-015": {
+        "destination" : "YYZ"
+    },"order-016": {
+        "destination" : "YYZ"
+    },"order-017": {
+        "destination" : "YYZ"
+    },"order-018": {
+        "destination" : "YYZ"
+    },"order-019": {
+        "destination" : "YYZ"
+    },"order-020": {
+        "destination" : "YYZ"
+    },"order-021": {
+        "destination" : "YYZ"
+    },"order-022": {
+        "destination" : "YYZ"
+    },"order-023": {
+        "destination" : "YYZ"
+    },"order-024": {
+        "destination" : "YYZ"
+    },"order-025": {
+        "destination" : "YYZ"
+    },"order-026": {
+        "destination" : "YYZ"
+    },"order-027": {
+        "destination" : "YYZ"
+    },"order-028": {
+        "destination" : "YYZ"
+    },"order-029": {
+        "destination" : "YYZ"
+    },"order-030": {
+        "destination" : "YYZ"
+    },"order-031": {
+        "destination" : "YYZ"
+    },"order-032": {
+        "destination" : "YYZ"
+    },"order-033": {
+        "destination" : "YYZ"
+    },"order-034": {
+        "destination" : "YYZ"
+    },"order-035": {
+        "destination" : "YYC"
+    },"order-036": {
+        "destination" : "YYC"
+    },"order-037": {
+        "destination" : "YYC"
+    },"order-038": {
+        "destination" : "YYC"
+    },"order-039": {
+        "destination" : "YYC"
+    },"order-040": {
+        "destination" : "YYC"
+    },"order-041": {
+        "destination" : "YYC"
+    },"order-042": {
+        "destination" : "YYC"
+    },"order-043": {
+        "destination" : "YYC"
+    },"order-044": {
+        "destination" : "YYC"
+    },"order-045": {
+        "destination" : "YYC"
+    },"order-046": {
+        "destination" : "YYC"
+    },"order-047": {
+        "destination" : "YYC"
+    },"order-048": {
+        "destination" : "YYC"
+    },"order-049": {
+        "destination" : "YYE"
+    },"order-050": {
+        "destination" : "YYC"
+    },"order-051": {
+        "destination" : "YYE"
+    },"order-052": {
+        "destination" : "YYC"
+    },"order-053": {
+        "destination" : "YYE"
+    },"order-054": {
+        "destination" : "YYC"
+    },"order-055": {
+        "destination" : "YYC"
+    },"order-056": {
+        "destination" : "YYC"
+    },"order-057": {
+        "destination" : "YYC"
+    },"order-060": {
+        "destination" : "YYC"
+    },"order-061": {
+        "destination" : "YYC"
+    },"order-062": {
+        "destination" : "YVR"
+    },"order-063": {
+        "destination" : "YVR"
+    },"order-064": {
+        "destination" : "YVR"
+    },"order-065": {
+        "destination" : "YVR"
+    },"order-066": {
+        "destination" : "YVR"
+    },"order-067": {
+        "destination" : "YVR"
+    },"order-068": {
+        "destination" : "YVR"
+    },"order-069": {
+        "destination" : "YVR"
+    },"order-070": {
+        "destination" : "YVR"
+    },"order-071": {
+        "destination" : "YVR"
+    },"order-072": {
+        "destination" : "YVR"
+    },"order-073": {
+        "destination" : "YVR"
+    },"order-074": {
+        "destination" : "YVR"
+    },"order-075": {
+        "destination" : "YVR"
+    },"order-076": {
+        "destination" : "YVR"
+    },"order-077": {
+        "destination" : "YVR"
+    },"order-078": {
+        "destination" : "YVR"
+    },"order-080": {
+        "destination" : "YVR"
+    },"order-081": {
+        "destination" : "YVR"
+    },"order-082": {
+        "destination" : "YVR"
+    },"order-083": {
+        "destination" : "YVR"
+    },"order-084": {
+        "destination" : "YVR"
+    },"order-085": {
+        "destination" : "YVR"
+    },"order-086": {
+        "destination" : "YVR"
+    },"order-087": {
+        "destination" : "YVR"
+    },"order-088": {
+        "destination" : "YVR"
+    },"order-089": {
+        "destination" : "YVR"
+    },"order-090": {
+        "destination" : "YVR"
+    },"order-091": {
+        "destination" : "YVR"
+    },"order-092": {
+        "destination" : "YVR"
+    },"order-093": {
+        "destination" : "YVR"
+    },"order-094": {
+        "destination" : "YVR"
+    },"order-095": {
+        "destination" : "YVR"
+    },"order-096": {
+        "destination" : "YVR"
+    },"order-097": {
+        "destination" : "YVR"
+    },"order-098": {
+        "destination" : "YVR"
+    },"order-099": {
+        "destination" : "YVR"
+    }
+}</value>
+  </data>
+</root>

@@ -1,0 +1,12 @@
+C:\Users\2thuvaa2\source\repos\CodingExercise\CodingExercise\bin\Debug\CodingExercise.exe.config
+C:\Users\2thuvaa2\source\repos\CodingExercise\CodingExercise\bin\Debug\CodingExercise.exe
+C:\Users\2thuvaa2\source\repos\CodingExercise\CodingExercise\bin\Debug\CodingExercise.pdb
+C:\Users\2thuvaa2\source\repos\CodingExercise\CodingExercise\bin\Debug\Newtonsoft.Json.dll
+C:\Users\2thuvaa2\source\repos\CodingExercise\CodingExercise\bin\Debug\Newtonsoft.Json.xml
+C:\Users\2thuvaa2\source\repos\CodingExercise\CodingExercise\obj\Debug\CodingExercise.csprojAssemblyReference.cache
+C:\Users\2thuvaa2\source\repos\CodingExercise\CodingExercise\obj\Debug\CodingExercise.Properties.Resources.resources
+C:\Users\2thuvaa2\source\repos\CodingExercise\CodingExercise\obj\Debug\CodingExercise.csproj.GenerateResource.cache
+C:\Users\2thuvaa2\source\repos\CodingExercise\CodingExercise\obj\Debug\CodingExercise.csproj.CoreCompileInputs.cache
+C:\Users\2thuvaa2\source\repos\CodingExercise\CodingExercise\obj\Debug\CodingExercise.csproj.CopyComplete
+C:\Users\2thuvaa2\source\repos\CodingExercise\CodingExercise\obj\Debug\CodingExercise.exe
+C:\Users\2thuvaa2\source\repos\CodingExercise\CodingExercise\obj\Debug\CodingExercise.pdb
